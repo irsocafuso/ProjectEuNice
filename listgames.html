@@ -7,56 +7,98 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="geral.css">
+    <link rel="stylesheet" href="css/geral.css">
     <title>ListGroup</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link disabled">Disabled</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main >
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner d-flex flex-wrap nowrap">
-              <div class="carousel-item active w-50">
-                <img src="test.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item w-50">
-                <img src="test.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item w-50">
-                <img src="test.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light fw-bold" href="#">EUNICE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse margim" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item margim-nav-list">
+                <a class="nav-link text-light" href="#">Início</a>
+              </li>
+              <li class="nav-item margim-nav-list">
+                <a class="nav-link text-light" href="#">Sobre</a>
+              </li>
+              <li class="nav-item margim-nav-list">
+                <a class="nav-link text-light active" href="#">Jogos</a>
+              </li>
+              <li class="nav-item margim-nav-list">
+                <a class="nav-link text-light" href="#">Ferramentas</a>
+              </li>
+              <li class="nav-item margim-nav-list">
+                <a class="nav-link text-light" href="#">Depoimentos</a>
+              </li>
+            </ul>
+            <button class="navbar-text border border-0 button">
+              ENTRE EM CONTATO
             </button>
           </div>
-          
-          
+        </div>
+      </nav>
+    </header>
+    <main class="bg-dark ">
+      <section class="container my-5">
+        <h2 class="fw-bold mb-4 text-light">Jogos</h2>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+          <div class="col listgroup">
+            <div class="card h-100">
+              <img src="public/test2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jogo 1</h5>
+                <p class="card-text">Descrição do Jogo 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="col listgroup">
+            <div class="card h-100">
+              <img src="public/test2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jogo 2</h5>
+                <p class="card-text">Descrição do Jogo 2</p>
+              </div>
+            </div>
+          </div>
+          <div class="col listgroup">
+            <div class="card h-100">
+              <img src="public/test2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Jogo 3</h5>
+              <p class="card-text">Descrição do Jogo 3</p>
+              </div>
+              </div>
+              </div>
+              <div class="col listgroup">
+              <div class="card h-100">
+              <img src="public/test2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Jogo 4</h5>
+              <p class="card-text">Descrição do Jogo 4</p>
+              </div>
+              </div>
+              </div>
+              <div class="col listgroup">
+              <div class="card h-100">
+              <img src="public/test2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Jogo 5</h5>
+              <p class="card-text">Descrição do Jogo 5</p>
+              </div>
+              </div>
+              </div>
+              </div>
+              </section>
+              <hr class="hr"> 
 
     </main>
-    <footer>
-        <h1>ProjetoEunice</h1>
+    <footer class="bg-dark">
+        <h3 class="text-light">ProjetoEunice</h3>
     </footer>
 </body>
 </html>
